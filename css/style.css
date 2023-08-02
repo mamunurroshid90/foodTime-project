@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 !important;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  border-radius: 225px;
+  background: var(--primary-c, #396c03);
+  /* padding: 12px 50px; */
+}
+.button a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+/* =============================================== */
+nav {
+  margin: 10px 0 20px;
+  border-bottom: 1px solid #e7dbdb;
+  position: absolute !important;
+  width: 100%;
+}
+
+.navbar .navbar-nav {
+  column-gap: 70px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #3f3f3f;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.navbar .buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.navbar .buttons .login {
+  padding: 12px 50px;
+}
+
+.navbar .buttons .shopping .fa-cart-shopping {
+  padding: 15px 16px;
+  background-color: #396c03;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+}
+.navbar .buttons .shopping span {
+  width: 30px;
+  height: 30px;
+  background-color: #ff8b00;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 50%;
+}
+.navbar .buttons .shopping {
+  position: relative;
+}
+.navbar .buttons .shopping span {
+  position: absolute;
+  left: 50px;
+  top: -10px;
+}
+/* ==================================================== */
+
+#banner__part .bg__images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner__part {
+  position: relative;
+}
+#banner__part .container {
+  position: absolute;
+  width: 100%;
+  top: 9px;
+  left: 101px;
+}
+
+#banner__part .banner {
+  padding: 172px 0 96px;
+}
+
+#banner__part .banner .heading h1 {
+  color: var(--primary-c, #396c03);
+  font-family: Merienda;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px;
+  width: 681px;
+}
+#banner__part .banner .heading p {
+  color: var(--paragraph, #676767);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.6px;
+  margin: 27px 0;
+}
+#banner__part .banner .heading form {
+  display: flex;
+  align-items: center;
+}
+#banner__part .banner .heading form input {
+  padding: 16px 432px 16px 74px;
+  color: var(--disable, #c7c7c7);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 37.4px */
+  border-radius: 120px;
+  border: 2px solid var(--primary-c, #396c03);
+}
+
+#banner__part .banner .heading form .search {
+  padding: 18px 50px;
+  margin-left: -194px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+#banner__part .banner .heading form {
+  position: relative;
+}
+
+#banner__part .banner .heading form span {
+  display: inline-block;
+  width: 49px;
+  height: 49px;
+  background-color: #ff8b00;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 9px;
+}
+
+#banner__part .banner .heading form .search .fa-magnifying-glass {
+  color: #fff;
+  font-size: 18px;
+}
+
+#banner__part .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#banner__part .banner .counter {
+  text-align: center;
+  margin-bottom: -26px;
+}
+#banner__part .banner .counter .count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 13px;
+}
+#banner__part .banner .counter .count .fa-circle-check {
+  font-size: 30px;
+  color: #ff8b00;
+}
+#banner__part .banner .counter .count h2 {
+  color: var(--secondary, #ff8b00);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+#banner__part .banner .image p {
+  color: #838383;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 27.3px */
+}
+
+#banner__part .banner .image {
+  position: relative;
+}
+#banner__part .banner .image .image2 {
+  position: absolute;
+  top: 5px;
+  left: -46px;
+  z-index: -1;
+}
+/* ==================================== */
+
+#explorer__part {
+  margin-top: 450px;
+  padding: 76px 0 86px;
+}
+
+#explorer__part .cities__food .text h2 {
+  color: var(--primary-c, #396c03);
+  font-family: Merienda;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  width: 527px;
+}
+#explorer__part .cities__food .text p {
+  color: var(--paragraph, #676767);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  width: 567px;
+  padding: 10px 0 14px;
+}
+
+#explorer__part .text .explore {
+  display: inline-block;
+  padding: 15px 60px;
+}
+#explorer__part .text .explore .fa-arrow-right {
+  margin-left: 15px;
+  color: #fff;
+}
+
+#explorer__part .cities__food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
